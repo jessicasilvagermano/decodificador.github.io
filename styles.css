@@ -1,0 +1,160 @@
+body {
+
+    background-color: #fbd2e4;
+    margin: 0;
+    justify-items: center;
+
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    margin: 1% 2% 7% 9%;
+    margin-bottom: 0px;
+
+}
+
+.sub-cabecalho {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    align-items: center;
+
+
+}
+
+.logomarca-principal {
+    margin-bottom: 0px;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 50px;
+    color: #5c1203;
+    text-shadow: 0.1em 0.1em 0.2em rgb(246, 236, 217);
+}
+
+.sub-logomarca {
+    font-size: 22px;
+    margin-top: 0px;
+    margin-left: 0px;
+    align-items: center;
+    color: rgb(84, 82, 82);
+   
+}
+
+
+.img-sub-logomarca {
+    height: 25px;
+    margin-top: 0px;
+}
+
+
+
+#campodetexto::placeholder {
+    font-size: 30px;
+    color: #5c1203;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+#result::placeholder {
+    color: #5c1203;
+    
+} 
+
+
+.div-digite-aqui {
+
+    margin-bottom: 210px;
+}
+
+.campo-digite-aqui {
+
+
+    border-radius: 0px 60px 60px;
+    border-color: none;
+    background-color: #f3a3da;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 25px;
+    width: 250px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+
+.campodetexto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #90C8DA;
+    height: 700px;
+    width: 25%;
+    border-radius: 25px;
+}
+
+.imagem-campodetexto {
+    width: 70%;
+}
+
+.input-campodetexto {
+
+    text-align: center;
+    margin: 20px 70px;
+    padding: 20%;
+    border: none;
+    background-color: #f3a3da;
+}
+
+.campodetexto button {
+    border-color: #5b4844 2px solid;
+    border-radius: 0px 60px 60px;
+    background-color: #5c1203;
+    color: #f3a3da;
+    padding: 20px 65px;
+    margin: 15px;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 25px;
+}
+
+.botoes {
+    display: inline-block;
+    margin-top: 0px;
+
+}
+
+.icon {
+    width: 15px;
+}
+
+#btnCriptografar {
+    color: #5c1203;
+    width: 300px;
+    padding: 30px 40px;
+    margin-left: 0x;
+    border-radius: 35px;
+    font-size: 20px;
+    border: none;
+    font-weight: 700;
+    background-color: #90C8DA;
+}
+
+#btnDescriptografar {
+    color: #5c1203;
+    width: 300px;
+    padding: 30px 40px;
+    margin-left: 10px;
+    border-radius: 35px;
+    font-size: 20px;
+    border: none;
+    font-weight: 700;
+    background-color: #90C8DA;
+}
+
+footer {
+    display: inline block;
+    text-align: center;
+    margin-top: 1%;
+    font-size: 15PX;
+    font-weight: 600;
+    color: #52badc;
+}
